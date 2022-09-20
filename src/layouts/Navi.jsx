@@ -5,7 +5,15 @@ import SignedIn from "./SignedIn";
 import SignedOut from "./SignedOut";
 
 export default function Navi() {
-  const [isAuthenticated, setIsAuthenticaded] = useState(false)
+  const [isAuthenticated, setIsAuthenticaded] = useState(true)
+
+  function handleSignOut() {
+    setIsAuthenticaded(false) 
+  }
+
+  function handleSignIn() {
+    setIsAuthenticaded(true) 
+  }
   return (
 
     <div>
@@ -16,7 +24,8 @@ export default function Navi() {
 
           <Menu.Menu position="right">
             <CartSummary></CartSummary>
-            {isAuthenticated? <SignedIn></SignedIn>: <SignedOut></SignedOut>}
+            {isAuthenticated? <SignedIn signdOut={handleSignOut}  bisey="1"/> : 
+            <SignedOut signIn={handleSignIn}/>}
           </Menu.Menu>
         </Container>
       </Menu>
