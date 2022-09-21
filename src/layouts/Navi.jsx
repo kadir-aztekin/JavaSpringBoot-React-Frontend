@@ -6,6 +6,8 @@ import SignedIn from "./SignedIn";
 import SignedOut from "./SignedOut";
 
 export default function Navi() {
+
+
   const [isAuthenticated, setIsAuthenticaded] = useState(true)
   function handleSignOut() {
     setIsAuthenticaded(false) 

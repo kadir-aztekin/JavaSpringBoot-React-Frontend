@@ -6,6 +6,7 @@ import { Grid } from "semantic-ui-react";
 // import { Route } from "react-router";
 import { Route,Routes, } from "react-router-dom";
 import CartDetail from "../pages/CartDetail";
+import {ToastContainer} from "react-toastify"
 
 
 // import { Routes } from "react-router-dom";
@@ -13,6 +14,7 @@ import CartDetail from "../pages/CartDetail";
 export default function Dashboard() {
   return (
     <div>
+      <ToastContainer position="bottom-right"></ToastContainer>
       <Grid>
         <Grid.Row>
           <Grid.Column width={4}>
