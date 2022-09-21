@@ -1,6 +1,8 @@
 <!-- axios APİ İSTEKLERİ GELIYOR
 SEMANTİCUI DA BOOTSTRAP TARZI -->
 <!-- <Redux> -->
+<!-- FORMİK  -->
+<!-- yup -->
 
 
 # Getting Started with Create React App

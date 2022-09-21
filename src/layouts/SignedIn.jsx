@@ -6,7 +6,7 @@ export default function SignedIn(signIn)
   return (
     <div>
             <Menu.Item>
-                <Image avatar spaced="right" src="../images/Ekran görüntüsü 2022-08-10 035755.png"/>
+                <Image avatar spaced="right" src="../images/Ekran görüntüsü 2022-08-10 035755.jpg"/>
                 <Dropdown pointing="top left" text="Kadir">
                     <Dropdown.Menu>
                         <Dropdown.Item text="Bilgilerim" icon="info"/>
